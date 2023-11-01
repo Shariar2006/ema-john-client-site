@@ -25,3 +25,20 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.pagination{
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pagination button{
+    background-color: #FFE0B2;
+    margin-right: 5px;
+    color: black;
+    border: none;
+}
+.pagination button:hover{
+    background-color: #FFA500;
+    color: white;  
+}
